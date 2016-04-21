@@ -29,3 +29,13 @@ Production (actually building the bundle and serve it up with Express)
 $ npm run build
   
 ```
+
+If you want to push this to heroku, change your 
+.gitignore file to *include* the public bundle like this...
+
+```
+  
+node_modules
+#public/bundle.js
+  
+```
