@@ -6,7 +6,7 @@ const STAGE = process.env.NODE_ENV==='staging';
 const PROD = process.env.NODE_ENV==='production';
 
 const config = {
-  entry: './src/app/index.js',
+  entry: './src/app/',
   output: {
     path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js'
