@@ -1,6 +1,8 @@
 ## Angular - Webpack - ES2015
 ### with Express to deploy it
 
+[Live Demo](https://ng-components.herokuapp.com/)
+
 ```bash
   
 $ npm install

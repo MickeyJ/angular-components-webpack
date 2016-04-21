@@ -11,8 +11,9 @@ angular.module('app', ['ui.router'])
   .config(
     ['$stateProvider', '$urlRouterProvider', '$locationProvider',
       ($stateProvider, $urlRouterProvider, $locationProvider) =>{
-        require('./Style/main.scss');
 
+        require('./Style/main.scss');
+        
         $stateProvider
           .state('/', configHome() )
           .state('about', configAbout() )
