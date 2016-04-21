@@ -29,12 +29,15 @@ Production (actually building the bundle and serve it up with Express)
 $ npm run build
   
 ```
-For deploying to heroku, change your 
-.gitignore file to *include* the public bundle like this...
+For deploying to heroku, change your __.gitignore__ file to *include* the public bundle.
+Also, *ignore* the src folder all together.
+
+Should look like this...
 
 ```
   
 node_modules
+src/*
 #public/bundle.js
   
 ```
