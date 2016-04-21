@@ -3,9 +3,9 @@ node_modules
 
 
 # -- Deployment Files --
-#public/bundle.js
+public/bundle.js
 
 
 # -- Development Files --
-src/*
-webpack.config.js
+#src/*
+#webpack.config.js
