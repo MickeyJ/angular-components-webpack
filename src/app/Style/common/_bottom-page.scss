@@ -1,0 +1,19 @@
+
+#bottom-page{
+
+  footer{
+    border-top: 1px solid #ccc;
+    @extend %sml-marg-box;
+
+    h6, h5{
+      @extend %reset;
+      display: inline;
+    }
+
+    .env{
+      color: red;
+    }
+
+  }
+
+}
