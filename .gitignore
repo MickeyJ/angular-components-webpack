@@ -1,3 +1,13 @@
+# -- Always Ignore --
 node_modules
+
+
+# -- Deployment Files --
 public/bundle.js
+
+
+# -- Development Files --
+#src/*
+#webpack.config.js
+
 
