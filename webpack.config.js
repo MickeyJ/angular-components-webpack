@@ -1,12 +1,12 @@
 const path = require('path');
 const strip = require('strip-loader');
 const webpack = require('webpack');
+
 const DEV = process.env.NODE_ENV==='development';
-const STAGE = process.env.NODE_ENV==='staging';
 const PROD = process.env.NODE_ENV==='production';
 
 const config = {
-  entry: './src/app/',
+  entry: './src/app/index.js',
   output: {
     path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js'
