@@ -1,6 +1,5 @@
 
 node_modules
-public/bundle.js
 
 # Debug log from npm
 npm-debug.log
