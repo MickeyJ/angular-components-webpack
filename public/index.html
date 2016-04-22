@@ -1,37 +1,42 @@
 <!doctype html>
 <html lang="en" ng-app="app">
-<head >
-  <base href="/" >
-  <meta charset="UTF-8" >
-  <title >Some Website</title >
-  <script src="bundle.js"></script >
-</head >
-<body ng-cloak>
+  <head >
+    <base href="/" >
+    <meta charset="UTF-8" >
+    <title >Some Website</title >
+    <script src="bundle.js"></script >
+  </head >
+  <body ng-cloak>
 
-  <section id="top-page">
-    <header>
-      <h1>Some Website</h1>
-    </header>
+    <section id="top-page">
+      <header>
+        <h1>Some Website</h1>
+      </header>
 
-    <nav>
-      <a ui-sref-active="active-link" ui-sref="/" >Home</a >
-      <span>|</span>
-      <a ui-sref-active="active-link" ui-sref="about" >About</a >
-      <span>|</span>
-      <a ui-sref-active="active-link" ui-sref="contact" >Contact</a >
-    </nav>
-  </section>
+      <nav>
+        <a ui-sref-active="active-link" ui-sref="/" >
+          Home
+        </a >
+        |
+        <a ui-sref-active="active-link" ui-sref="about" >
+          About
+        </a >
+        |
+        <a ui-sref-active="active-link" ui-sref="contact" >
+          Contact
+        </a >
+      </nav>
+    </section>
 
-  <div ui-view class="container"></div>
+    <div ui-view class="container"></div>
 
-  <section id="bottom-page">
-    <footer>
-      <span>&copy; 2016</span>
-      <h5>Some Website</h5>
-      <h6 app-env class="env"></h6>
-    </footer>
-  </section>
+    <section id="bottom-page">
+      <footer>
+        <span>&copy; 2016</span>
+        <h5>Some Website</h5>
+        <h6 app-env class="env"></h6>
+      </footer>
+    </section>
 
-
-</body >
+  </body >
 </html >

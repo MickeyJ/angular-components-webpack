@@ -12,7 +12,7 @@ const HomeController = () =>(
   ['$scope',
     ($scope) =>{
       
-      $scope.title = 'Home Page'
+      $scope.title = 'Home Page';
       
     }
   ]

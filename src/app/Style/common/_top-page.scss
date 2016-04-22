@@ -19,10 +19,10 @@
     position: absolute;
     bottom: 0;
     right: 1%;
+    font-size: 1.2em;
     @extend %sml-marg-vert;
 
     a{
-      font-size: 1.2em;
       color: #ff4f59;
       text-decoration: none;
 

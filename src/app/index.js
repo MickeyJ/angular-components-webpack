@@ -12,8 +12,6 @@ angular.module('app', ['ui.router'])
     ['$stateProvider', '$urlRouterProvider', '$locationProvider',
       ($stateProvider, $urlRouterProvider, $locationProvider) =>{
         
-        require('./Style/vendors/normalize.css');
-        require('./Style/vendors/skeleton.css');
         require('./Style/main.scss');
         
         $stateProvider

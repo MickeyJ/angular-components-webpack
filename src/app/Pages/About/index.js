@@ -10,7 +10,7 @@ export default () =>{
 
 const AboutController = () =>(
   ['$scope',
-    ($scope) =>{
+    ($scope) => {
       
       $scope.title = 'About Page'    
       
