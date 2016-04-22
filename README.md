@@ -16,7 +16,7 @@ $ npm run dev
   
 ```
 
-Staging (testing minified angular)
+Staging ?? (testing minified angular)
 ```bash
   
 $ npm run stage
