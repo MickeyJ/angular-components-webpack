@@ -39,7 +39,7 @@ const config = {
         exclude: /node_modules/
       },
       {
-        test: [/\.scss$/, /\.css$/],
+        test: [/\.css$/, /\.scss$/],
         loaders: ["style", "css", "sass"],
         exclude: /node_modules/
       }
